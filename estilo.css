@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e6e6e6;
+}
+
+#menu{
+    background-color: orange;
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+#area-menu{
+    padding: 12px;
+   
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    padding:15px;
+    color: rgb(255, 251, 251);
+}
+
+#menu a:hover{
+    color: aqua;
+    background-color: chartreuse;
+}
+
+#menu a:active{
+    color: blueviolet;
+}
+
+.branco{
+    color: white;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.postagens{
+    width: 660px;
+    float: left;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+#lateral{
+    width: 220px;
+    float: right;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+#rodape{
+    text-align: center;
+    font-weight: 600;
+    clear: both;
+    padding: 15px;
+}
+
+h2{
+    color: orange;
+}
+
+.postagens a:hover{
+    color: rgb(255, 234, 0);
+    background-color: rgb(176, 214, 109);
+}
+
+.conteudolateral a,   .postagens  a{
+    color: red;
+}
+
+.conteudolateral{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
